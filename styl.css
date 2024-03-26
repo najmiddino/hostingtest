@@ -1,0 +1,171 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+.container { 
+    width: 1200px; 
+    text-align: center; 
+    margin-left: 100px; 
+    border-color: rgb(233, 236, 238); 
+} 
+ 
+nav { 
+    width: 1200px; 
+    height: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+} 
+ 
+ul { 
+    display: flex; 
+    gap: 20px; 
+    list-style-type: none; 
+} 
+ 
+ul li a { 
+    font-family: Mulish; 
+font-size: 18px; 
+font-weight: 700; 
+line-height: 22.59px; 
+text-align: left; 
+text-decoration: none; 
+color: gray; 
+} 
+ 
+ul li a:hover { 
+    color: black; 
+} 
+ 
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    margin-top: 20px; 
+} 
+ 
+ 
+.left { 
+    margin-top: 200px; 
+    width: 500px; 
+} 
+ 
+button { 
+    background-color:blue; 
+    color: black; 
+    width: 150px; 
+height: 50px; 
+top: 558px; 
+left: 210px; 
+border-radius: 50px;  
+} 
+ 
+button:active { 
+    background-color: red; 
+    color: blue; 
+} 
+ 
+.row2 { 
+    margin-top: 30px; 
+} 
+ 
+h1 { 
+    text-align: center; 
+} 
+ 
+ 
+ 
+.card { 
+    width: 380px; 
+border-radius: 20px; 
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+margin-top: 20px; 
+gap: 10px; 
+} 
+ 
+.cars_row { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+} 
+ 
+.row2 button { 
+    width: 200px; 
+height: 46px; 
+top: 1879px; 
+left: 700px; 
+border-radius: 55px; 
+background-color: white; 
+color: blue; 
+margin-top:100px; 
+} 
+ 
+.row2 button:active { 
+background-color: blue; 
+color: white; 
+} 
+ 
+h1 { 
+    text-align: center; 
+} 
+ 
+.cars2 { 
+    display: flex; 
+    width: 1200px; 
+    gap: 20px; 
+} 
+ 
+.card1 { 
+    width: 380px; 
+    height: 500px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    border-color: white; 
+ 
+} 
+ 
+.card .img { 
+    width: 380px; 
+    height: 250px; 
+} 
+ 
+footer { 
+    display: flex; 
+    background-color: rgb(0, 169, 211); 
+    color: white; 
+    margin-top: 10px; 
+ padding: 50px; 
+ margin-bottom: 10px; 
+ width: 100%; 
+} 
+.container1 { 
+    display: flex; 
+    color: white; 
+    width: 1200px; 
+} 
+ 
+.stolb1 { 
+    width: 350px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+} 
+ 
+.stolb2 { 
+    margin-left: 200px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+} 
+ 
+.stolb3 { 
+    margin-left: 200px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+} 
+ 
+.stolb4 { 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    margin-left: 100px; 
+    gap: 10px; 
+}
